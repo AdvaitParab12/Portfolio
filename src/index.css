@@ -7,21 +7,21 @@
 }
 
 .htmllogo{
-    @apply bg-[url('./html.png')] bg-no-repeat;
+    @apply bg-[url('/html.png')] bg-no-repeat;
 }
 
 .csslogo{
-    @apply bg-[url('./css-3.png')] bg-no-repeat;
+    @apply bg-[url('/css-3.png')] bg-no-repeat;
 }
 
 .scsslogo{
-    @apply bg-[url('./sass.png')] bg-no-repeat;
+    @apply bg-[url('/sass.png')] bg-no-repeat;
 }
 
 .jslogo{
-    @apply bg-[url('./js.png')] bg-no-repeat;
+    @apply bg-[url('/js.png')] bg-no-repeat;
 }
 
 .vitelogo{
-    @apply bg-[url('./vite.png')] bg-no-repeat
+    @apply bg-[url('/vite.png')] bg-no-repeat
 }
