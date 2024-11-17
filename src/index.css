@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    @apply bg-slate-700 text-white
+}
+
+.htmllogo{
+    @apply bg-[url('./html.png')] bg-no-repeat;
+}
+
+.csslogo{
+    @apply bg-[url('./css-3.png')] bg-no-repeat;
+}
+
+.scsslogo{
+    @apply bg-[url('./sass.png')] bg-no-repeat;
+}
+
+.jslogo{
+    @apply bg-[url('./js.png')] bg-no-repeat;
+}
+
+.vitelogo{
+    @apply bg-[url('./vite.png')] bg-no-repeat
+}
