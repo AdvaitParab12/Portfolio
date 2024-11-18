@@ -3,25 +3,112 @@
 @tailwind utilities;
 
 .bg{
-    @apply bg-slate-700 text-white
+    @apply bg-slate-900 text-white
+}
+
+.display{
+    @apply py-1.5 px-3 flex items-center justify-center rounded-lg
+}
+
+.title{
+    @apply grid place-content-center border-b border-slate-600
+}
+
+.technologies{
+    @apply flex gap-1 p-3 font-semibold text-white border-b border-slate-600 flex-wrap
+}
+
+.card{
+    @apply border w-96 h-[30rem] bg-slate-800 rounded-xl border-slate-600
+}
+
+.cardtitle{
+    @apply py-2 text-3xl text-white font-semibold
+}
+
+.logosize{
+    @apply w-6 h-6 mt-2
+}
+
+.btns{
+    @apply py-2 px-8 text-white bg-slate-600 rounded-lg font-normal hover:bg-slate-700
+}
+
+.githubbutton{
+    @apply text-white rounded-lg font-normal hover:scale-110 transition-transform duration-300
+}
+.html{
+    @apply text-red-500 
+}
+
+.htmlborder{
+    @apply border-2 border-red-500
 }
 
 .htmllogo{
     @apply bg-[url('/html.png')] bg-no-repeat;
 }
 
+.css{
+    @apply text-blue-500
+}
+
+.cssborder{
+    @apply border-2 border-blue-500
+}
+
 .csslogo{
     @apply bg-[url('/css-3.png')] bg-no-repeat;
+}
+
+.scss{
+    @apply text-pink-500
+}
+
+.scssborder{
+    @apply border-2 border-pink-500
 }
 
 .scsslogo{
     @apply bg-[url('/sass.png')] bg-no-repeat;
 }
 
+.js{
+    @apply text-yellow-400
+}
+
+.jsborder{
+    @apply border-2 border-yellow-400
+}
+
 .jslogo{
-    @apply bg-[url('/js.png')] bg-no-repeat;
+    @apply bg-[url('/js.png')] bg-no-repeat ;
+}
+
+.tslogo{
+    @apply bg-[url('/ts.png')] bg-no-repeat
+}
+
+.vite{
+    @apply text-purple-500
+}
+
+.viteborder{
+    @apply border-2 border-purple-500
 }
 
 .vitelogo{
     @apply bg-[url('/vite.png')] bg-no-repeat
+}
+
+.parcellogo{
+    @apply bg-[url('/box.png')] bg-no-repeat
+}
+
+.gitlogo{
+    @apply bg-[url('/social.png')] bg-no-repeat
+}
+
+.githublogo{
+    @apply bg-[url('/github.png')] bg-no-repeat
 }
