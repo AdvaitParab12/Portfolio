@@ -5,9 +5,7 @@ export default {
     fontFamily: {
       sans: ["Montserrat", "monospace"],
     },
-    fontFamily:{
-      serif:["Poppins","monospace"]
-    },
+    
     extend: {
       colors: {
         'custom-brown': '#dbab79',
